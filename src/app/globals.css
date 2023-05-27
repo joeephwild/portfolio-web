@@ -7,6 +7,11 @@ body {
 }
 
 @font-face {
-  font-family:Nunito-Black ;
-  src: url("../assets/fonts/Nunito-Black.ttf");
+  font-family: Nunito-Black;
+  src: url("../assets/fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: Panchang-Extrabold;
+  src: url("../assets/fonts/Panchang-Extrabold.woff");
 }

@@ -1,23 +1,35 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ComputerCanvas from "./canvas/ComputerCanvas";
+import ComputersCanvas from "./canvas/ComputerCanvas";
 
 const Header = () => {
   return (
-    <div className="w-full h-screen sm:mt-[10%] flex flex-col min-h-screen mx-3 mix-blend-difference  bg-no-repeat bg-center relative">
-      <p className="text-[16px] mt-[104px] font font-normal leading-[24px] min-w-[333px] tracking-widest max-[144px]">
-        Interactive front-end/Blockchain developer with full-stack capabilities
-        based in Lagos, Nigeria. Passionate about creating memorable digital
-        experiences through dynamic and engaging user interfaces. Let`s work
-        together to bring your project to life!
-      </p>
-      <h2 className="font-black text-[30px] mt-[104px] sm:text-[27px] text-bodygreen  font-Nunito-Black leading-[32.74px]">
-        FULL-STACK ETHEREUM <br className="md:hidden block" /> DEVELOPER.
-      </h2>
+    <section className={`relative w-full h-screen mx-auto`}>
+      <div
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto flex flex-row items-start gap-5`}
+      >
+        <div className="space-y-5 mx-3">
+          <p
+            className={`text-white font-normal leading-[24px] font-Nunito-Black`}
+          >
+            Interactive front-end/Blockchain developer with full-stack
+            capabilities based in Lagos, Nigeria. Passionate about creating
+            memorable digital experiences through dynamic and engaging user
+            interfaces. Let`s work together to bring your project to life!
+          </p>
+          <h1
+            className={`font-Panchang-Extrabold text-2xl text-[#D5FF40] mt-2 text-white-100`}
+          >
+            FULL-STACK ETHEREUM <br className="sm:block hidden" />
+            DEVELOPER
+          </h1>
+          <button className="bg-[#D5FF40] px-6 py-3.5 text-[#000] rounded-lg">Contact Me</button>
+        </div>
+      </div>
 
-      <ComputerCanvas />
+      <ComputersCanvas />
 
-      <div className="w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#D5FF40] flex justify-center items-start p-2">
             <motion.div
@@ -34,7 +46,7 @@ const Header = () => {
           </div>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 
