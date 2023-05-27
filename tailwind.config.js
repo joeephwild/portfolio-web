@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         bodygreen: "#D5FF40",
         black: "#131618",
+        tertiary: "#151030",
       },
       fontFamily: {
         "Nunito-Black": ["Nunito-Black"],
