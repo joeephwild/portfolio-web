@@ -8,22 +8,23 @@ const Header = () => {
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
-        <div className="space-y-5 mx-3">
+        <div className="space-y-4 lg:space-y-12 mx-3">
           <p
-            className={`text-white font-normal leading-[24px] font-Nunito-Black`}
+            className={`text-white lg:w-[489px] md:text-[16px] lg:absolute lg:right-0 font-bold text-[14px] leading-[24px] font-Nunito-Black`}
           >
             Interactive front-end/Blockchain developer with full-stack
             capabilities based in Lagos, Nigeria. Passionate about creating
             memorable digital experiences through dynamic and engaging user
             interfaces. Let`s work together to bring your project to life!
           </p>
-          <h1
-            className={`font-Panchang-Extrabold text-2xl text-[#D5FF40] mt-2 text-white-100`}
-          >
-            FULL-STACK ETHEREUM <br className="sm:block hidden" />
-            DEVELOPER
-          </h1>
-          <button className="bg-[#D5FF40] px-6 py-3.5 text-[#000] rounded-lg">Contact Me</button>
+          <div className="mt-[105px]">
+            <h1
+              className={`font-Panchang-Extrabold text-2xl md:text-4xl lg:text-6xl lg:min-w-[900px] tracking-widest text-[#D5FF40] mt-`}
+            >
+              FULL-STACK <br className="lg:block " /> ETHEREUM <br className="sm:hidden block" />
+              DEVELOPER
+            </h1>
+          </div>
         </div>
       </div>
 

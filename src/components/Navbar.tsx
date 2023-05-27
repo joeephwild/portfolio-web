@@ -7,6 +7,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { logo } from "../assets";
 import Image from "next/image";
 import Link from "next/link";
+import { styles } from "@/styles";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -30,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${"px-4"} w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -51,8 +52,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-bodygreen" : "text-white"
+              } hover:text-white font-Nunito-Black text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>

@@ -19,7 +19,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
-        <footer className="fixed bottom-0">Made with Love by @Joseph Omotade</footer>
         </body>
     </html>
   );
