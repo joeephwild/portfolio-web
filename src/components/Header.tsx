@@ -4,8 +4,8 @@ import ComputerCanvas from "./canvas/ComputerCanvas";
 
 const Header = () => {
   return (
-    <div className="w-full mt-[20%] h-screen sm:mt-[10%] min-h-screen mx-3 mix-blend-difference  bg-no-repeat bg-center relative">
-      <p className="text-[16px] mt-[204px] font font-normal leading-[24px] min-w-[333px] tracking-widest max-[144px]">
+    <div className="w-full h-screen sm:mt-[10%] flex flex-col min-h-screen mx-3 mix-blend-difference  bg-no-repeat bg-center relative">
+      <p className="text-[16px] mt-[104px] font font-normal leading-[24px] min-w-[333px] tracking-widest max-[144px]">
         Interactive front-end/Blockchain developer with full-stack capabilities
         based in Lagos, Nigeria. Passionate about creating memorable digital
         experiences through dynamic and engaging user interfaces. Let`s work
@@ -17,7 +17,7 @@ const Header = () => {
 
       <ComputerCanvas />
 
-      <div className="absolute xs:bottom-10 bottom- w-full flex justify-center items-center">
+      <div className="w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#D5FF40] flex justify-center items-start p-2">
             <motion.div
