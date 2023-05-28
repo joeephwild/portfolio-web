@@ -19,9 +19,9 @@ const Header = () => {
           </p>
           <div className="mt-[105px]">
             <h1
-              className={`font-Panchang-Extrabold text-2xl md:text-4xl lg:text-6xl lg:min-w-[900px] tracking-widest text-[#D5FF40] mt-`}
+              className={`font-Panchang-Extrabold text-2xl md:text-4xl lg:text-[3.5rem] lg:leading-normal  lg:min-w-[900px] tracking-widest text-[#D5FF40] mt-`}
             >
-              FULL-STACK <br className="lg:block " /> ETHEREUM <br className="sm:hidden block" />
+              FULL-STACK <br className="lg:block " /> BLOCKCHAIN <br className="sm:hidden block" />
               DEVELOPER
             </h1>
           </div>

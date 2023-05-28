@@ -43,7 +43,7 @@ const ServiceCard: React.FC<Props> = ({ index, title, icon, options }) => (
 
 const About: React.FC = () => {
   return (
-    <section id="about">
+    <>
       <motion.div
         variants={textVariant()}
       >
@@ -79,7 +79,7 @@ const About: React.FC = () => {
           />
         ))}
       </div>
-    </section>
+    </>
   );
 };
 
