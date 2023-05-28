@@ -7,6 +7,7 @@ import { projects } from "@/constants";
 import { Tilt } from "react-tilt";
 import Image from "next/image";
 import { github } from "@/assets";
+import { FaArrowRight } from 'react-icons/fa'
 
 type Props = {
   index: number
@@ -15,6 +16,7 @@ type Props = {
   tags: any
   image: any
   source_code_link: any
+  live: string
 }
 
 const ProjectCard = ({
@@ -24,6 +26,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live
 }: Props) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -59,7 +62,12 @@ const ProjectCard = ({
         <div className='mt-5'>
           <div className="flex items-center justify-between">
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <button>live site</button>
+          <div
+          onClick={() => window.open(live, "_blank")}
+          className="cursor-pointer"
+          >
+            <FaArrowRight size={25} />
+          </div>
           </div>
 
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
@@ -91,7 +99,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-[#fff] font-bold text-[17px] font-Nunito-Black max-w-3xl leading-[30px]"
+          className="mt-3 text-[#fff] text-[17px] font-Nunito-Black max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -100,7 +108,7 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid gap-12'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

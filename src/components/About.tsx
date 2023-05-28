@@ -62,7 +62,10 @@ const About: React.FC = () => {
         development tools while vibing to some cool afrobeats music, when not
         busy i love playing basketball at the local basketball court with my
         teammates. I also enjoy socializing on Twitter and speaking on Twitter
-        Spaces.
+        Spaces. <br />
+        I am Joseph. Over the past few months, I`ve been building projects
+        ranging from marketing websites to complex solutions and enterprise apps
+        with a focus on fast, elegant, and accessible user experiences.
       </motion.p>
 
       <div className="my-20 grid grid-cols-1 md:grid-cols-3 mx-3 gap-10">

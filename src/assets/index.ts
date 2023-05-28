@@ -7,5 +7,9 @@ import jobit from './jobit.png'
 import tripguide from './tripguide.png'
 import carrent from './carrent.png'
 import github from './github.png'
+import netflix from './Netflix Official Clone_ Movies ad Tv shows - Brave 5_28_2023 10_47_13 PM.png'
+import token from './Token Wordle - Brave 5_18_2023 3_44_29 PM.png'
+import filmedia from './filmedia.png'
 
-export { logo, web, mobile, creator, backend, carrent, jobit, tripguide, github };
+
+export { logo, web, mobile, creator, backend, carrent, jobit, tripguide, github, filmedia, netflix, token };

@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ComputersCanvas from "./canvas/ComputerCanvas";
+import { fadeIn } from "@/utils/motion";
 
 const Header = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mt-[30px] mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
@@ -21,14 +22,15 @@ const Header = () => {
             <h1
               className={`font-Panchang-Extrabold text-2xl md:text-4xl lg:text-[3.5rem] lg:leading-normal  lg:min-w-[900px] tracking-widest text-[#D5FF40] mt-`}
             >
-              FULL-STACK <br className="lg:block " /> BLOCKCHAIN <br className="sm:hidden block" />
+              FULL-STACK <br className="lg:block " /> BLOCKCHAIN{" "}
+              <br className="sm:hidden block" />
               DEVELOPER
             </h1>
           </div>
         </div>
       </div>
 
-      <ComputersCanvas />
+        <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

@@ -2,8 +2,11 @@ import {
   backend,
   carrent,
   creator,
+  filmedia,
   jobit,
   mobile,
+  netflix,
+  token,
   tripguide,
   web,
 } from "@/assets";
@@ -50,7 +53,7 @@ export const services: Service[] = [
 
 export const projects = [
   {
-    name: "Car Rent",
+    name: "Filmedia",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -67,11 +70,60 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: filmedia,
+    source_code_link: "https://github.com/joeephwild/filedia",
+    live: "https://filmedia-app.vercel.app/"
   },
   {
-    name: "Job IT",
+    name: "Token Wordle",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: token,
+    source_code_link: "https://github.com/joseephwild/token-wordle",
+    live: "https://token-wordle.vercel.app/"
+  },
+  {
+    name: "Netflix",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/joeephwild/",
+    live: "https://netflix-clone-main-seven.vercel.app/"
+  },
+  {
+    name: "Fluently",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -90,9 +142,32 @@ export const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    live: ""
   },
   {
-    name: "Trip Guide",
+    name: "Netflix",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+    live: ""
+  },
+  {
+    name: "Crowdfunding",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -111,5 +186,6 @@ export const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live: ""
   },
 ];
