@@ -3,6 +3,7 @@ import {
   carrent,
   creator,
   filmedia,
+  fluently,
   jobit,
   mobile,
   netflix,
@@ -111,18 +112,18 @@ export const projects = [
   {
     name: "Filmedia",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Filmedia is a cutting-edge Web3 content sharing platform that empowers creators to showcase their talents and earn money from their work.",
     tags: [
       {
-        name: "react",
+        name: "React-js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Solidity",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Hardhat",
         color: "pink-text-gradient",
       },
     ],
@@ -133,7 +134,7 @@ export const projects = [
   {
     name: "Token Wordle",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web3 game platform that utilizes the fun game of wordle that allow users to stake and earn tokens while playing such addictive game.",
     tags: [
       {
         name: "nextjs",
@@ -159,18 +160,18 @@ export const projects = [
   {
     name: "Netflix",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to watch movie trailer of every kind and see every latest movie releases.",
     tags: [
       {
-        name: "nextjs",
+        name: "React-js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind-css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Movie-Api",
         color: "pink-text-gradient",
       },
     ],
@@ -181,63 +182,67 @@ export const projects = [
   {
     name: "Fluently",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Fluently is a decentralized language exchange platform that uses Huddle01's video SDK to allow users to practice speaking a foreign language with native speakers from around the world.",
     tags: [
       {
-        name: "nextjs",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Hardhat",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Filecoin Testnet",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    live: ""
+    image: fluently,
+    source_code_link: "https://github.com/joeephwild/fluently-v2/tree/master/fluently-contract",
+    live: "https://fluently-app.vercel.app/"
   },
   {
-    name: "Netflix",
+    name: "Errand_App",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "nextjs",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Hardhat",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Chai",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-    live: ""
+    source_code_link: "https://github.com/joeephwild/decentralized_errand/tree/develop/errand",
+    live: "https://decentralized-errand.vercel.app/"
   },
   {
-    name: "Crowdfunding",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Portfolio website built with threejs and nextjs to showcase some of works after a long time of finding a good idea on one.",
     tags: [
       {
-        name: "nextjs",
+        name: "Next-js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind-css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Three-js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "React-three-fiber",
+        color: "green-text-gradient",
       },
     ],
     image: tripguide,

@@ -29,9 +29,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
   
-    const serviceId = "YOUR_EMAILJS_SERVICE_ID";
-    const templateId = "YOUR_EMAILJS_TEMPLATE_ID";
-    const publicKey = "YOUR_EMAILJS_PUBLIC_KEY";
+    const serviceId = "service_inru80m";
+    const templateId = "template_25leksq";
+    const publicKey = "L0fdvRubkMWJPTJSN";
   
     emailjs
       .send(serviceId, templateId, {

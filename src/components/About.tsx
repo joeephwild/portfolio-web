@@ -44,9 +44,7 @@ const ServiceCard: React.FC<Props> = ({ index, title, icon, options }) => (
 const About: React.FC = () => {
   return (
     <>
-      <motion.div
-        variants={textVariant()}
-      >
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Overview</p>
         <h2 className={styles.sectionHeadText}>Hello</h2>
       </motion.div>
@@ -63,9 +61,10 @@ const About: React.FC = () => {
         busy i love playing basketball at the local basketball court with my
         teammates. I also enjoy socializing on Twitter and speaking on Twitter
         Spaces. <br />
-        I am Joseph. Over the past few months, I`ve been building projects
-        ranging from marketing websites to complex solutions and enterprise apps
-        with a focus on fast, elegant, and accessible user experiences.
+        I have an impressive record of accomplishments in various
+        hackathons. With a natural inclination for innovative problem-solving,
+        I thrive in high-pressure, fast-paced environments, consistently
+        delivering exceptional solutions within tight deadlines.
       </motion.p>
 
       <div className="my-20 grid grid-cols-1 md:grid-cols-3 mx-3 gap-10">
