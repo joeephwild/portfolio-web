@@ -5,13 +5,13 @@ import { fadeIn } from "@/utils/motion";
 
 const Header = () => {
   return (
-    <section className={`relative w-full h-screen mt-[30px] mx-auto`}>
+    <section className={`relative w-full h-screen mt-[30px] xsm:mt-0  mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="space-y-4 lg:space-y-12 mx-3">
           <p
-            className={`text-white lg:w-[489px] md:text-[16px] lg:absolute lg:right-0 font-bold text-[14px] leading-[24px] font-Nunito-Black`}
+            className={`text-white lg:w-[489px] xsm:text-[10px] xsm:font-bold md:text-[16px] lg:absolute lg:right-0 font-bold text-[14px] leading-[24px] font-Nunito-Black`}
           >
             Interactive front-end/Blockchain developer with full-stack
             capabilities based in Lagos, Nigeria. Passionate about creating
@@ -20,7 +20,7 @@ const Header = () => {
           </p>
           <div className="mt-[105px]">
             <h1
-              className={`font-Panchang-Extrabold text-2xl md:text-4xl lg:text-[3.5rem] lg:leading-normal  lg:min-w-[900px] tracking-widest text-[#D5FF40] mt-`}
+              className={`font-Panchang-Extrabold text-2xl md:text-5x lg:text-[3.5rem] lg:leading-normal  lg:min-w-[900px] tracking-widest text-[#D5FF40] xsm:text-lg xsm:w-full xsm:mb-[10px]`}
             >
               FULL-STACK <br className="lg:block " /> BLOCKCHAIN{" "}
               <br className="sm:hidden block" />
@@ -32,7 +32,7 @@ const Header = () => {
 
         <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 xsm:bottom-4 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#D5FF40] flex justify-center items-start p-2">
             <motion.div

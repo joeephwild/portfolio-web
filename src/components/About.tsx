@@ -24,7 +24,7 @@ const ServiceCard: React.FC<Props> = ({ index, title, icon, options }) => (
   <Tilt className="xs:w-[250px] w-full" options={options}>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className=" w-full green-pink-gradient shadow-sm p-[1px] rounded-[20px] hadow-[#D5FF40]"
+      className=" w-full green-pink-gradient shadow-sm p-[1px] rounded-[20px]"
     >
       <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <Image
@@ -51,7 +51,7 @@ const About: React.FC = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-[#ffff] text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-[#ffff] text-[17px] xsm:text-[12px] xsm:max-w-2xl max-w-3xl leading-[30px]"
       >
         I am Joseph. Over the past few months, I`ve been building projects
         ranging from marketing websites to complex solutions and enterprise apps
